@@ -33,7 +33,7 @@ The agent is provided in `agent.py`, and the underlying neural network model in 
 
 `pip install pytorch`
 
-will do the job, but check PyTorch.org if you run into troubles.
+will do the job, but check https://PyTorch.org if you run into troubles.
 
 ## Instructions
 
