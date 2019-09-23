@@ -29,7 +29,7 @@ https://github.com/Unity-Technologies/ml-agents
 
 in our case we followd the installation instructions of Udaciy.
 
-The agent is provided in `agent.py`, and the underlying neural network model in `model.py`. For this one needs to install Pytorch, usually
+The agent is provided in `agent.py`, and the underlying neural network model in `model.py` (both these files were obtained from Udacity Qnetwork project). For these to run one needs to install Pytorch, usually
 
 `pip install pytorch`
 
