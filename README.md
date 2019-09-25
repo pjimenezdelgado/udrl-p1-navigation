@@ -23,17 +23,15 @@ The task is episodic and, in order to solve the environment, the agent must pick
 
 The top level of the project has been developed as a Jupyter notebook (`Navigation.ipynb`) in Python 3, thus make sure that you have a running Python and Jupyter working installation.
 
-The world is provided as an Unity environment and is external to the project itself. To install the environment please check 
+The world is provided as an Unity environment and is external to the project itself. To install the environment you will need a distribution of the ml-agents package from Unity. Please follow the installation instructions there, as this may change, in our case we followed the installation instructions of Udacity.
 
-https://github.com/Unity-Technologies/ml-agents
+The agent is provided in `agent.py`, and the underlying neural network model in `model.py` (both these files were obtained from Udacity Qnetwork project). For these to run one needs to install Pytorch; other packages that need to be imported directly are numpy, and matplotlib. To install them, please run
 
-in our case we followd the installation instructions of Udaciy.
+`pip install numpy matplotlib pytorch`
 
-The agent is provided in `agent.py`, and the underlying neural network model in `model.py` (both these files were obtained from Udacity Qnetwork project). For these to run one needs to install Pytorch, usually
+In addition all these packkages will have dependencies themselves, which need to be satisfied before proceeding. A complete list of all the dependencies can be found in `requiriments.txt`, and istalled using
 
-`pip install pytorch`
-
-will do the job, but check https://PyTorch.org if you run into troubles.
+`pip requirements.txt`
 
 ## Instructions
 
